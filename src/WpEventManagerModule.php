@@ -3,6 +3,7 @@
 namespace RebelCode\EventManager\Module;
 
 use Dhii\Data\Container\ContainerFactoryInterface;
+use Dhii\EventManager\WordPress\WpEventManager;
 use Psr\Container\ContainerInterface;
 use RebelCode\Modular\Module\AbstractBaseModule;
 
@@ -34,7 +35,9 @@ class WpEventManagerModule extends AbstractBaseModule
     {
         return $this->_createContainer(
             [
-                'event-manager',
+                'event-manager' => function (ContainerInterface $c) {
+                    return new WpEventManager();
+                },
             ]
         );
     }
