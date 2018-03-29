@@ -1,6 +1,6 @@
 {
-    "name": "rebelcode/wp-events-module",
-    "description": "A module for a WordPress Event Manager.",
+    "name": "rebelcode/rcmod-wp-event-manager",
+    "description": "A RebelCode module that provides a WordPress event manager service.",
     "type": "rc-module",
     "license": "GPL-3.0",
     "authors": [
@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "RebelCode\\EventManager\\Module\\": "src"
+            "RebelCode\\EventManager\\WordPress\\Module\\": "src"
         }
     },
     "scripts": {

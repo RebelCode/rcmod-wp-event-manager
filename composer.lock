@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "28d49cc342b41f8c3dbbdb1b54296a16",
+    "content-hash": "20c8581f31bcf32482de9e3957f3c602",
     "packages": [
         {
             "name": "dhii/callback-abstract",

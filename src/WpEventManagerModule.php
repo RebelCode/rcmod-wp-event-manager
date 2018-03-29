@@ -1,6 +1,6 @@
 <?php
 
-namespace RebelCode\EventManager\Module;
+namespace RebelCode\EventManager\WordPress\Module;
 
 use Dhii\Data\Container\ContainerFactoryInterface;
 use Dhii\EventManager\WordPress\WpEventManager;
@@ -19,7 +19,7 @@ class WpEventManagerModule extends AbstractBaseModule
      *
      * @since [*next-version*]
      */
-    const MODULE_KEY = 'wp_events';
+    const MODULE_KEY = 'wp_event_manager';
 
     /**
      * Constructor.
@@ -42,7 +42,7 @@ class WpEventManagerModule extends AbstractBaseModule
     {
         return $this->_createContainer(
             [
-                'event_manager' => function (ContainerInterface $c) {
+                'wp_event_manager' => function (ContainerInterface $c) {
                     return new WpEventManager();
                 },
             ]
