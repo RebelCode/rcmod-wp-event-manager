@@ -1,5 +1,5 @@
 {
-    "name": "rebelcode/wp-events-module",
+    "name": "rebelcode/rcmod-wp-event-manager",
     "description": "A module for a WordPress Event Manager.",
     "type": "rc-module",
     "license": "GPL-3.0",
