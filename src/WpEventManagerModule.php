@@ -35,7 +35,7 @@ class WpEventManagerModule extends AbstractBaseModule
     {
         return $this->_createContainer(
             [
-                'event-manager' => function (ContainerInterface $c) {
+                'event_manager' => function (ContainerInterface $c) {
                     return new WpEventManager();
                 },
             ]
