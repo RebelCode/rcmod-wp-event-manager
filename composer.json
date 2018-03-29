@@ -30,11 +30,5 @@
     "scripts": {
         "test": "phpunit",
         "csfix": "php-cs-fixer fix -vvv"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/dhii/wp-events.git"
-        }
-    ]
+    }
 }
