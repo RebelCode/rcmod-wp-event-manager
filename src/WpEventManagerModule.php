@@ -15,6 +15,13 @@ use RebelCode\Modular\Module\AbstractBaseModule;
 class WpEventManagerModule extends AbstractBaseModule
 {
     /**
+     * The key of the module.
+     *
+     * @since [*next-version*]
+     */
+    const MODULE_KEY = 'wp_events';
+
+    /**
      * Constructor.
      *
      * @since [*next-version*]
@@ -23,7 +30,7 @@ class WpEventManagerModule extends AbstractBaseModule
      */
     public function __construct($containerFactory)
     {
-        $this->_initModule($containerFactory, 'wp-events');
+        $this->_initModule($containerFactory, static::MODULE_KEY);
     }
 
     /**
